@@ -52,7 +52,7 @@ export function AuthContextProvider({ children }) {
   const logout = () => {
     deleteToken();
     setUser(null);
-    navigate("/landing");
+    navigate("/login");
   };
 
   useEffect(() => {

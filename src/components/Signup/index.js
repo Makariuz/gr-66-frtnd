@@ -1,4 +1,4 @@
-import styles from "./Signup.module.css";
+import styles from "./Signup.scss";
 import { useState, useContext } from "react";
 import { AuthContext } from "context";
 

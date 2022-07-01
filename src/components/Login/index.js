@@ -1,4 +1,4 @@
-import styles from "./Login.module.css";
+import styles from "./Login.scss";
 import { AuthContext } from "context";
 import { useContext, useState } from "react";
 
