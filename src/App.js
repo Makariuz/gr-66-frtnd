@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import styles from "./App.module.css";
+import "./App.scss";
 import { Navbar, FileUpload } from "components";
 import {useState} from 'react'
 
@@ -8,12 +8,19 @@ function App() {
   const [file, setFile] = useState()
 
   return (
-    <div>
+    <div className="app-container">
       <Navbar />
 {/*       <FileUpload setFile={setFile}/>
       <img src={file} /> */}
+
+      <div className="section-app">
       <Outlet />
+      </div>
+
+      <footer>
       footer
+      </footer>
+
     </div>
   );
 }

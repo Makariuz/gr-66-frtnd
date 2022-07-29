@@ -1,0 +1,43 @@
+@import '../../global.scss';
+
+nav {
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 5px;
+  transition: all 1s ease;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h1 {
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Koulen", cursive;
+   
+  }
+}
+
+.menu-items {
+  list-style: none;
+  font-size: 2.25rem;
+  padding: 10px;
+  background-color: darkolivegreen;
+  color: white;
+  position: absolute;
+  /*  top: -300px; */
+  top: 70px;
+
+  &.drop {
+
+
+    transform: scale(0.97);
+    transition: transform 700ms ease;
+  }
+}

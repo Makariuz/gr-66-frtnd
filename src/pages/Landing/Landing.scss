@@ -1,0 +1,32 @@
+
+
+.landing-container {
+
+    display:flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    height: 100vh;
+
+    background-image: url('../../assets/wp-road.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    .login-signup {
+      
+        &.hidden {
+            display:none;
+        }
+    }
+    
+    .store-container{
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+    }
+
+}
+

@@ -21,6 +21,15 @@ code {
 form {
   display: flex;
   flex-direction: column;
-  padding: 40px;
-  gap: 20px;
+  padding: 20px;
+
+
+}
+
+button {
+  font-size: 1rem;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: .2px .2px 2px .2px;
 }

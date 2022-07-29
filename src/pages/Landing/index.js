@@ -1,13 +1,23 @@
 import { Login, Signup } from "components";
 import { AuthContext } from "context";
-import { useContext } from "react";
+
+import './Landing.scss'
+import { LoginSignUp } from "pages/LoginSignUp";
+import { useContext, useState } from "react";
+import logo from '../../assets/7.PNG'
+import { About } from "pages/About";
 
 export function Landing() {
   const { user } = useContext(AuthContext);
-  return (
-    <div>
-      <h1>Login / Signup</h1>
 
+  const [hideLogin, setHideLogin] = useState(false)
+
+
+  return (
+    <div className="landing-container">
+<About />
+     
+   
     </div>
   );
 }

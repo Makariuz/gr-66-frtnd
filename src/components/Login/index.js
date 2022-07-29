@@ -12,7 +12,8 @@ export function Login() {
     login(email, password);
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="login-form form" onSubmit={handleSubmit}>
+ 
       <h2>Login</h2>
       <label htmlFor="email">Email:</label>
       <input

@@ -1,4 +1,4 @@
-import styles from "./Signup.scss";
+import "./Signup.scss";
 import { useState, useContext } from "react";
 import { AuthContext } from "context";
 
@@ -15,7 +15,7 @@ export function Signup() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form  className="login-form form" onSubmit={handleSubmit}>
       <h2>Signup</h2>
       <label htmlFor="firstName">First name:</label>
       <input

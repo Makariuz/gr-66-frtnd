@@ -1,0 +1,47 @@
+
+
+
+.container-store{
+    font-family: "Koulen", cursive;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+    background-image: url('../../assets/wp-blackroad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+
+    .left {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 50%;
+       
+
+         img {
+            border-radius: .5rem;
+            box-shadow: 5px 5px 10px 0px rgba(225, 48, 139, 0.5);
+
+            &:hover{
+                transform: scale(1.01);
+                box-shadow: 5px 5px 10px 10px rgba(225, 48, 139, 0.5);
+                transition: all 700ms ease-in-out; 
+            }
+         }
+    }
+
+    .right {
+       /*  margin: 10px; */
+        padding: 20px;
+        background-color:rgba(225, 48, 139, 0.5);
+        height: 100%;
+        width: 50%;
+        display:flex;
+        align-items: center;
+    }
+}
