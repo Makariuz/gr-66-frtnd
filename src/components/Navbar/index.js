@@ -60,8 +60,8 @@ export function Navbar() {
 function Menu({ test }) {
   return (
     <ul className={"menu-items " + (test && "drop")}>
-      <Link to="/about">
-        <li>ABOUT</li>
+      <Link to="/blog">
+        <li>BLOG</li>
       </Link>
       <Link to="/mission">
         <li>MISSION ST.</li>
@@ -69,9 +69,9 @@ function Menu({ test }) {
       <Link to="/store">
       <li>STORE</li>
       </Link>
-      <Link to="/login">
+     {/*  <Link to="/login">
         <li>LOGIN / SIGNUP</li>
-      </Link>
+      </Link> */}
     </ul>
   );
 }

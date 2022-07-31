@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Landing, Home, LoginSignUp, NotFound, About, MissionSt, Store } from "pages";
+import { Landing, Home, LoginSignUp, NotFound, About, MissionSt, Store, Blog } from "pages";
 import { PrivateRoute } from "components";
 import { AuthContextProvider } from "context";
 
@@ -27,6 +27,7 @@ ReactDOM.render(
             <Route path="mission" element={<MissionSt />} />
             <Route path="about" element={<About />} />
             <Route path="store" element={<Store />} />
+            <Route path="blog" element={<Blog />} />
             <Route path="login" element={<LoginSignUp />} />
             <Route path="*" element={<NotFound />} />
           </Route>

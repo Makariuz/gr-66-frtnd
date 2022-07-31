@@ -31,7 +31,7 @@ export function About() {
          
        
                     <em>
-            You can find my most recent book <Link to="*">here</Link>, free on Kindle or purchased
+            You can find my most recent book <Link to="/store">here</Link>, free on Kindle or purchased
             via <b>this link</b>!
           </em>
         </article>
